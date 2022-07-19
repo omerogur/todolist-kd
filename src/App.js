@@ -23,7 +23,7 @@ function App() {
         <SettingContext>
           <Layout>
             <Routes>
-              <Route path='' element={<Home />} />
+              <Route path='/' element={<Home />} />
               <Route path='/list' element={<List />} />
               <Route path='/about' element={<AboutsUs />} />
             </Routes>

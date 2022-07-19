@@ -8,7 +8,7 @@ const Logout = () => {
     <div>
         <span>
         <Name />
-        <button className='cikis' onClick={logout}> Çıkış</button>
+        <Link to="/"> <button className='cikis' onClick={logout}> Çıkış</button></Link>
         </span>
       
     </div>
