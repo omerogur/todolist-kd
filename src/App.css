@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.head {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  height: 78px;
+  justify-content: space-between;
+}
+
+.head ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+
+
+}
+
+.head ul li {
+  padding: 0 10px;
+}
+
+.header {
+  border: 1px solid #ddd;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.header select {
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+
+.header button {
+  padding: 10px 30px;
+  border: 1px solid #ddd;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+}
+
+.list {
+  border: 1px solid #ddd;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  list-style: none;
+}
+
+.list li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list li b {
+  font-weight: 400;
+  color: #fff;
+  background: #f00;
+  padding: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms;
+  display: flex;
+  margin-left: 10px;
+  width: 28px;
+}
+
+.list li b:hover {
+  background: #f005;
+}
+
+.list li strong {
+  font-weight: 400;
+  padding: 0 5px;
+  font-size: 14px;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 300ms;
+  flex: 2;
+}
+
+.list .listHeader {
+  font-weight: 700;
+  font-size: 12px;
+
+}
+
+.list .listHeader span {
+  cursor: pointer;
+
+}
+
+.list .listHeader b {
+  background-color: #0000;
+
+}
+
+.list .listHeader strong {
+  font-weight: 700;
+  font-size: 12px;
+  color: black;
+
+
+}
+
+.list li span {
+  display: flex;
+  flex: 5;
+  font-weight: bold;
+}
+
+.status1 {
+  background: red;
+  color: #000;
+}
+
+.status2 {
+  background: orange;
+  color: #000;
+}
+
+.status3 {
+  background: green;
+  color: #000;
+}
+
+.alert {
+  background-color: red;
+  color: #fff;
+}
+
+.alertInput {
+  border: 1px solid red !important;
+
+}

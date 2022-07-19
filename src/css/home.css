@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    height: calc(100vh - 156px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login{
+display: flex;
+flex-direction: column;
+border: 1px solid #ddd;
+padding: 20px;
+border-radius: 10px;
+}
+.login input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    outline: none;
+}
+.login  label{
+    font-weight: bold;
+}
+.login button {
+    padding: 10px;
+    border: 0;
+    background-color: blue;
+    color: #fff;
+    outline: none;
+}
+.cikis{
+    margin-left: 10px;
+    padding: 3px 10px;
+    
+   
+}
+.changeTemplate{
+    background: white;
+    height: 26px;
+    padding: 1px 2px;
+  
+}
+.changeTemplate b{
+   display: inline-flex;
+   width: 20px;
+   height: 20px;
+   margin: 2px 1px;
+   cursor: pointer;
+   
+}
+.changeTemplate .yellow{
+    background: orange;
+   
+}
+.changeTemplate .red{
+    background: red;
+   
+}
+.changeTemplate .black{
+    background: black;
+    
+}
+.changeTemplate .blue{
+    background: blue;
+    
+}
